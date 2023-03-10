@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://ctm86lfmcgqoa"]
+
+[ext_resource type="Script" path="res://Camera2D.cs" id="1_xd5wo"]
+[ext_resource type="Texture2D" uid="uid://duh7tl3papgn7" path="res://icon.svg" id="2_ixdeo"]
+
+[node name="Mouse" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(-568, -262)
+rotation = -3.17301
+anchor_mode = 0
+script = ExtResource("1_xd5wo")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_ixdeo")
